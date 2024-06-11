@@ -1,4 +1,4 @@
-import { socialIcons } from "data";
+import { socialIcons } from "../data";
 import SocialLink from "./SocialLink";
 
 const SocialLinks = ({ parentClass, itemClass }) => {

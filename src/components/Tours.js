@@ -1,5 +1,5 @@
 import Title from "./Title";
-import { tours } from "data";
+import { tours } from "../data";
 import Tour from "./Tour";
 
 const Tours = () => {
