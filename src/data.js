@@ -10,3 +10,24 @@ export const socialIcons = [
   { id: 1, href: "https://www.twitter.com", icon: "fab fa-twitter" },
   { id: 1, href: "https://www.twitter.com", icon: "fab fa-squarespace" },
 ];
+
+export const services = [
+  {
+    id: 1,
+    icon: "fa-wallet",
+    title: "saving money",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.",
+  },
+  {
+    id: 1,
+    icon: "fa-tree",
+    title: "endless hiking",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.",
+  },
+  {
+    id: 1,
+    icon: "fa-socks",
+    title: "amazing comfort",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.",
+  },
+];
