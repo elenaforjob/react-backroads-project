@@ -1,6 +1,6 @@
-const Tour = ({ id, image, date, title, info, location, duration, price }) => {
+const Tour = ({ image, date, title, info, location, duration, price }) => {
   return (
-    <article className="tour-card" key={id}>
+    <article className="tour-card">
       <div className="tour-img-container">
         <img src={image} className="tour-img" alt="" />
         <p className="tour-date">{date}</p>
@@ -22,4 +22,5 @@ const Tour = ({ id, image, date, title, info, location, duration, price }) => {
     </article>
   );
 };
+
 export default Tour;

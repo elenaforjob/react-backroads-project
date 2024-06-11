@@ -9,19 +9,7 @@ const Tours = () => {
 
       <div className="section-center featured-center">
         {tours.map((tour, index) => {
-          const { image, date, title, info, location, duration, price } = tour;
-          return (
-            <Tour
-              key={index}
-              image={image}
-              date={date}
-              title={title}
-              info={info}
-              location={location}
-              duration={duration}
-              price={price}
-            />
-          );
+          return <Tour key={index} {...tour} />;
         })}
       </div>
     </section>
